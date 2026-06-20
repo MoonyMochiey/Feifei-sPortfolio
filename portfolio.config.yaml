@@ -12,18 +12,18 @@
 # ║                                                                      ║
 # ║  Change it to "portfolio" once you have filled in your details.      ║
 # ╚══════════════════════════════════════════════════════════════════════╝
-siteMode: "landing"   # ← CHANGE THIS to "portfolio"
-siteUrl:  "https://yourusername.github.io"  # ← Your GitHub Pages URL (used for RSS & canonical links)
-showPoweredBy: false  # Set to true to show a small "Made with GitVitae" badge in your footer (helps others discover GitVitae)
+siteMode: "portfolio"   # ← CHANGE THIS to "portfolio"
+siteUrl:  "https://moonymochiey.github.io/Feifei-sPortfolio/"  # ← Your GitHub Pages URL (used for RSS & canonical links)
+showPoweredBy: true  # Set to true to show a small "Made with GitVitae" badge in your footer (helps others discover GitVitae)
 
 # ── Identity ───────────────────────────────────────────── (required) ──
-name: "Git Vitae"              # Your name — shown in the header and used as a fallback in the avatar
-title: "Portfolio-Resume Engineer"
-tagline: "I build free portfolios and resumes for everyone."
-email: "git-vitae@proton.me"
-phone: ""                    # Optional — e.g. "+1 (555) 000-1234". Shown in contact section and resume.
-location: "San Francisco, CA"
-avatarUrl: "https://api.dicebear.com/9.x/fun-emoji/svg?seed=Alex&mouth[]=wideSmile&radius=12"  # Demo avatar — replace with your own photo URL (see instructions below)
+name: "Chunfei Huang"
+title: "Computer Science Graduate | Business & Design Focus"
+tagline: "Bringing together tech, business, and creative thinking."
+email: "wxlol238@gmail.com"
+phone: ""
+location: "Portland, OR"
+avatarUrl: "https://github.com/MoonyMochiey/Feifei-sPortfolio/blob/main/public/1735431796836.jpeg?raw=true"  # Demo avatar — replace with your own photo URL (see instructions below)
 # How to add a profile photo (free, no extra account needed):
 #   1. Go to your GitHub repo → click "Add file" → "Upload files"
 #   2. Upload your photo (e.g. avatar.jpg) into a folder called "public/"
@@ -76,206 +76,148 @@ sections:
   - { id: education,      show: true  }
   - { id: certifications, show: true  }
   - { id: publications,   show: false }
-  - { id: testimonials,   show: true  }
+  - { id: testimonials,   show: false  }
   - { id: contact,        show: true  }
 
 # ── Social links ───────────────────────────── (leave blank to hide) ───
 social:
-  github:   "https://github.com/yourusername"
-  linkedin: "https://linkedin.com/in/yourusername"
-  twitter:  ""
+  github: "https://github.com/MoonyMochiey"
+  linkedin: "https://www.linkedin.com/in/chunfei-huang-25760823a/"
   website:  ""
 
 # ── About ──────────────────────────────────────────────────────────────
 # Use | for multi-line text. Indent each line by 2 spaces.
+# ── About ──────────────────────────────────────────────────────────────
 about: |
-  I'm a portfolio-resume engineer with 5+ years of experience building products
-  that people love. I specialize in React, Node.js, and distributed systems.
-  When I'm not coding, I'm hiking trails or experimenting with new coffee
-  brewing methods.
+  I'm a Computer Science graduate from Oregon State University with a minor in 
+  Business. While I studied tech, I'm really more interested in the business 
+  and people side of things. Analyzing data, improving processes, and making 
+  things easier for teams.
 
+  A lot of my hands on experience comes from class projects, where I've built 
+  databases, developed web apps, and designed wireframes and prototypes. I've 
+  also worked part-time in event logistics and tech support, which taught me 
+  how to stay organized, work with different teams, and adapt quickly.
 
-# ── Stats ──────────────────────────────────────────────────────────────
-# Customise each label and value freely — change "Projects Shipped" to
-# "Active Customers", "Happy Clients", "Open Source Stars", etc.
-# Optional fields: prefix (e.g. "$") and suffix (e.g. "+" or "k").
-# Remove all entries or set show: false above to hide this section.
-stats:
-  - { label: "Years Experience", value: 5,    suffix: "+" }
-  - { label: "Projects Shipped", value: 20,   suffix: "+" }
-  - { label: "Happy Clients",    value: 50,   suffix: "+" }
-  - { label: "Cups of Coffee",   value: 1200, suffix: ""  }
+  On the design side, I really enjoy creating wireframes and working on 
+  frontend stuff. I like making things that look good and are easy to use. 
+  I'm comfortable with Figma and have built prototypes and user flows for 
+  several projects. I like the creative part of design way more than the 
+  coding part.
 
-# Examples of other combinations you can use:
-#   - { label: "Active Users",    value: 10000, suffix: "+" }
-#   - { label: "Revenue",         value: 2,     prefix: "$", suffix: "M+" }
-#   - { label: "Countries",       value: 12,    suffix: ""  }
+  Outside of work, I love filming and editing videos from my trips just for 
+  fun! I use VN to piece together travel clips, playing with music, pacing, 
+  and storytelling. It's a creative outlet that's helped me think about how 
+  to keep things visually engaging.
 
 # ── Languages ──────────────────────────────────────────────────────────
 # level options: Native | Fluent | Conversational | Basic
 languages:
   - { name: "English",  level: "Native"        }
-  - { name: "Spanish",  level: "Conversational" }
-  - { name: "Mandarin", level: "Basic"          }
+  - { name: "Mandarin", level: "Conversational"          }
 
 # ── Skills ─────────────────────────────────────────────────────────────
 skills:
-  - category: "Frontend"
-    items: [React, TypeScript, Next.js, Tailwind CSS, Framer Motion]
-  - category: "Backend"
-    items: [Node.js, Express, PostgreSQL, Redis, GraphQL]
-  - category: "DevOps"
-    items: [Docker, AWS, CI/CD, Kubernetes, Terraform]
+  - category: "Technical"
+    items: [Python, HTML(web dev), SQL, C++/C, Flutter]
+  - category: "Design"
+    items: [Figma, Wireframing, Prototyping, "User Research", "Video Editing (VN)"]
   - category: "Tools"
-    items: [Git, Figma, Jest, Storybook, Datadog]
+    items: [Git, Figma, Power BI, Excel ]
 
 # ── Experience ─────────────────────────────────────────────────────────
 experience:
-  - company: "Acme Corp"
-    role: "Senior Full-Stack Engineer"
-    period: "2022 – Present"
+  - company: "LaSells Stewart Center (Corvallis, OR)"
+    role: "Student Technician"
+    period: "Oct 2022 – Jun 2025"
     description: |
-      Led migration of monolithic Rails app to microservices.
-      Reduced p99 latency by 60%. Mentored a team of 4 engineers.
-    highlights:
-      - Microservices migration
-      - 60% latency reduction
-      - Team leadership
+      Collaborated with event coordinators and technical staff to support execution 
+      of campus events. Set up, tested, and maintained audio visual systems, identifying 
+      technical issues and improving usability for presenters and attendees.
 
-  - company: "Startup XYZ"
-    role: "Software Engineer"
-    period: "2020 – 2022"
+  - company: "Asiacom Americas Inc. (Tualatin, OR)"
+    role: "Server Technician Intern"
+    period: "Jul 2023 – Sep 2023"
     description: |
-      Built real-time collaboration features for a SaaS platform serving
-      50k users. Owned the entire frontend from scratch.
-    highlights:
-      - Real-time collaboration
-      - 50k users
-      - Frontend ownership
+      Assisted in assembling, configuring, and deploying servers within existing network 
+      infrastructures. Analyzed system requirements and supported troubleshooting of hardware
+      and configuration issues.
 
-  - company: "Freelance"
-    role: "Web Developer"
-    period: "2018 – 2020"
+  - company: "Aramark Nike Campus (Beaverton, OR)"
+    role: "Catering Service Worker"
+    period: "Jul 2022 – Sep 2022"
     description: |
-      Delivered 20+ web projects for small businesses and agencies across
-      e-commerce, marketing, and internal tools.
-    highlights:
-      - 20+ projects
-      - E-commerce
-      - Internal tools
+      Supported event operations for large-scale corporate events at Nike headquarters. 
+      Responsible for event setup, food and beverage delivery, and ensuring a smooth 
+      experience for guests. Worked with a team to adapt quickly to changing event 
+      needs and maintained a professional, customer-focused attitude.
 
 # ── Projects ───────────────────────────────────────────────────────────
 # Set featured: true to show in the Featured section (max 3 recommended)
 projects:
-  - name: "OpenDesk"
-    description: "An open-source project management tool built with React and Go. 2.3k GitHub stars. Real-time updates via WebSockets."
-    tags: [React, Go, WebSockets, PostgreSQL]
-    liveUrl: "https://opendesk.example.com"
-    repoUrl: "https://github.com/yourusername/opendesk"
+  - name: "Guardianly"
+    description: |
+      Personal safety navigation app that helps commuters and travelers identify
+      hazards and navigate safer routes through an interactive map interface.
+      Designed end-to-end UI wireframes in Figma and built frontend screens using
+      Flutter/Dart with Mapbox hazard visualization. Collaborated with a 3-person
+      cross-functional team to deliver an integrated prototype tested on Android, 
+      web, and iOS simulator.
+    tags: [Flutter, Dart, Figma, Mapbox, Git]
+    liveUrl: "https://guardianly-auth.web.app"
+    repoUrl: "https://github.com/MoonyMochiey/guardianly"
     featured: true
 
-  - name: "CodeLens"
-    description: "VS Code extension that uses AI to generate inline documentation. 10k+ installs from the marketplace."
-    tags: [TypeScript, OpenAI, "VS Code API"]
-    liveUrl: ""
-    repoUrl: "https://github.com/yourusername/codelens"
+  - name: "Expanova Fleetwork Database"
+    description: |
+      Designed and implemented a fully normalized relational database for fleet
+      management, including ERD, DDL, and stored procedures. Built a Node.js and
+      Handlebars web application with full CRUD functionality across multiple UI views.
+    tags: [Node.js, SQL, "Database Design", CRUD]
+    repoUrl: "https://github.com/MoonyMochiey/cs-340-project"
     featured: true
 
-  - name: "PriceWatch"
-    description: "Browser extension that tracks price history on e-commerce sites and alerts users to drops."
-    tags: [JavaScript, "Chrome API", Node.js]
-    liveUrl: "https://pricewatch.example.com"
-    repoUrl: "https://github.com/yourusername/pricewatch"
-    featured: false
+  - name: "Skincare Website & Microservices"
+    description: |
+      Developed a web application enabling users to track skincare routines and
+      manage product usage. Implemented authentication, search, filtering, and
+      content creation microservices using Flask.
+    tags: [Flask, Python, HTML/CSS]
+    repoUrl: "https://github.com/MoonyMochiey/skincarefinal"
+    featured: true
 
-  - name: "Logbook"
-    description: "A minimalist journaling app with end-to-end encryption. Built in a weekend. 500+ users."
-    tags: ["React Native", SQLite, Crypto]
+  - name: "Artemis Sportsman (Sonar Sailor)"
+    description: |
+      Collaborated with a team of 6 to develop a comprehensive business plan for a
+      remote-controlled fishing boat with sonar fish finder and HD camera technology.
+      Co-authored the executive summary, management team analysis, and overall summary
+      sections. Pitched to a panel of business judges, defending financial projections
+      and market strategy.
+      [View Business Plan](https://github.com/MoonyMochiey/Feifei-sPortfolio/blob/main/public/Assignment%208%20Business%20Plan%20Written%20Proposal.pdx.pdf)
+    tags: ["Business Plan", "Business Pitch Competition"]
     liveUrl: ""
-    repoUrl: "https://github.com/yourusername/logbook"
-    featured: false
+    repoUrl: ""
+    featured: true
+
+  - name: "UX Entertainment Platform"
+    description: |
+      Designed a user-centered entertainment platform following UX research and
+      iterative design processes. Created wireflows and interactive prototypes in
+      Figma with a focus on accessibility and clarity.
+      [View Wireframes & Prototypes](https://raw.githubusercontent.com/MoonyMochiey/Feifei-sPortfolio/main/public/projects/ux-platform-wireframes.pdf)
+    tags: ["UX Research", Figma, Wireframing, Prototyping]
+    liveUrl: ""
+    repoUrl: ""
+    featured: true
 
 # ── Education ──────────────────────────────────────────────────────────
 education:
-  - institution: "University of California, Berkeley"
-    degree: "B.S. Computer Science"
-    period: "2014 – 2018"
+  - institution: "Oregon State University"
+    degree: "B.S. Computer Science, Minor in Business"
+    period: "2022 - 2026"
 
 # ── Certifications ─────────────────────────────────────────────────────
-certifications:
-  - title: "AWS Certified Solutions Architect – Associate"
-    issuer: "Amazon Web Services"
-    date: "2023"
-    credentialUrl: "https://aws.amazon.com/verification"
-    badgeUrl: "https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"
-    tags: [Cloud, Architecture, AWS]
-
-  - title: "Professional Scrum Master I"
-    issuer: "Scrum.org"
-    date: "2022"
-    credentialUrl: "https://www.scrum.org/certificates"
-    badgeUrl: "https://images.credly.com/size/340x340/images/a2790314-008a-4c3d-9e11-2a8f48155adc/image.png"
-    tags: [Agile, Scrum, Leadership]
-
-  - title: "Google Professional Data Engineer"
-    issuer: "Google Cloud"
-    date: "2021"
-    credentialUrl: ""
-    badgeUrl: ""
-    tags: [Data, GCP, BigQuery]
-
-
-# ── Publications ───────────────────────────────────────────────────────
-# Optional — ideal for researchers, academics, and technical writers.
-# type options: conference | journal | preprint | book-chapter | workshop
-publications:
-  - title: "Scaling Real-Time Collaboration in Distributed Systems"
-    authors: "Rivera A, Chen L, Patel S"
-    venue: "USENIX ATC 2023"
-    year: "2023"
-    url: "https://arxiv.org/abs/example"
-    type: "conference"
-    tags: [distributed-systems, real-time, scalability]
-
-  - title: "Micro-Frontend Architecture Patterns for Large-Scale SPAs"
-    authors: "Rivera A"
-    venue: "IEEE Software"
-    year: "2022"
-    url: ""
-    type: "journal"
-    tags: [frontend, architecture, micro-frontends]
-
-# ── Testimonials ───────────────────────────────────────────────────────
-testimonials:
-  - name: "Sarah Chen"
-    title: "Engineering Manager"
-    company: "Acme Corp"
-    relationship: "Manager"   # e.g. Manager | Colleague | Client | Mentor
-    quote: |
-      Alex is one of the most thoughtful engineers I've had the pleasure of
-      working with. They consistently delivered high-quality work on time and
-      elevated the entire team's standards.
-    photoUrl: ""              # URL to headshot — leave empty for initials
-
-  - name: "James Okafor"
-    title: "Senior Product Designer"
-    company: "Startup XYZ"
-    relationship: "Colleague"
-    quote: |
-      Working with Alex was a joy. They have a rare ability to translate vague
-      product requirements into clean, elegant code. Our collaboration made the
-      product significantly better.
-    photoUrl: ""
-
-  - name: "Priya Nair"
-    title: "CTO"
-    company: "FinTech Ventures"
-    relationship: "Client"
-    quote: |
-      Alex delivered the project ahead of schedule and the code quality was
-      exceptional. They communicated proactively, flagged risks early, and were
-      genuinely invested in our success.
-    photoUrl: ""
+certifications: []
 
 # ── Analytics (optional, always free) ──────────────────────────────────────
 # Two ways to track who visits your portfolio — both free, no credit card:
@@ -305,6 +247,6 @@ testimonials:
 # Then write your post in plain Markdown below the closing ---.
 # See the sample posts in blog/ to get started.
 blog:
-  enabled: true
+  enabled: false
   title: "Blog"
   description: "Thoughts, stories and ideas — everything in one place."
