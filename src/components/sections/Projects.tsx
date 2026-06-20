@@ -43,7 +43,7 @@ export function Projects() {
           {featured.map((project, i) => {
             const slug = getProjectSlug(project.name);
             const blogUrl = `/Feifei-sPortfolio/blog/2025/02/${slug}`;
-
+      
             return (
               <motion.div
                 key={project.name}
