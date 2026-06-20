@@ -43,6 +43,8 @@ export function Projects() {
           {featured.map((project, i) => {
             const slug = getProjectSlug(project.name);
             const blogUrl = `/Feifei-sPortfolio/#/blog/${slug}`;
+            // Inside the .map function, after defining blogUrl
+            console.log('Blog URL:', blogUrl);
       
             return (
               <motion.div
