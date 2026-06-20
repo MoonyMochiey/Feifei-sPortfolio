@@ -42,7 +42,7 @@ export function Projects() {
         <div className="mb-14 grid gap-6 md:grid-cols-2">
           {featured.map((project, i) => {
             const slug = getProjectSlug(project.name);
-            const blogUrl = `/Feifei-sPortfolio/blog/2025/02/${slug}`;
+            const blogUrl = `/#/blog/${slug}`;
       
             return (
               <motion.div
@@ -129,7 +129,7 @@ export function Projects() {
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {others.map((project, i) => {
                 const slug = getProjectSlug(project.name);
-                const blogUrl = `/blog/2025/02/${slug}`;  // ← Updated path
+                const blogUrl = `/#/blog/${slug}`;
 
                 return (
                   <motion.div
