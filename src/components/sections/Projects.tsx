@@ -42,7 +42,7 @@ export function Projects() {
         <div className="mb-14 grid gap-6 md:grid-cols-2">
           {featured.map((project, i) => {
             const slug = getProjectSlug(project.name);
-            const blogUrl = `/blog/2025/02/${slug}`;  // ← Updated path
+            const blogUrl = `/Feifei-sPortfolio/blog/2025/02/${slug}`;
 
             return (
               <motion.div
