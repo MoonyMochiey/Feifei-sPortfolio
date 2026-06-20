@@ -9,6 +9,11 @@ export function Projects() {
   const featured = config.projects.filter((p) => p.featured);
   const others = config.projects.filter((p) => !p.featured);
 
+  // Helper to generate a URL-friendly slug from project name
+  const getProjectSlug = (name: string) => {
+    return name.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
+  };
+
   return (
     <section id="projects" className="bg-secondary/20 px-6 py-32">
       <div className="mx-auto max-w-6xl">
@@ -36,8 +41,7 @@ export function Projects() {
         {/* Featured — large cards */}
         <div className="mb-14 grid gap-6 md:grid-cols-2">
           {featured.map((project, i) => {
-            // Create a slug from the project name
-            const slug = project.name.toLowerCase().replace(/\s+/g, '-');
+            const slug = getProjectSlug(project.name);
             const blogUrl = `/blog/${slug}`;
 
             return (
@@ -53,7 +57,8 @@ export function Projects() {
                 onClick={() => window.location.href = blogUrl}
               >
                 <div className="flex items-start justify-between gap-4">
-                  <h3 className="text-foreground group-hover:text-primary font-serif text-2xl font-light transition-colors">
+                  {/* Project name — now a visual heading, not a separate link */}
+                  <h3 className="text-foreground font-serif text-2xl font-light transition-colors">
                     {project.name}
                   </h3>
                   <div className="flex shrink-0 gap-2">
@@ -64,7 +69,6 @@ export function Projects() {
                         rel="noopener noreferrer"
                         className="text-muted-foreground hover:text-foreground hover:bg-secondary rounded-lg p-2 transition-all"
                         aria-label="GitHub repo"
-                        data-testid={`link-repo-${project.name.toLowerCase()}`}
                         onClick={(e) => e.stopPropagation()}
                       >
                         <Github size={16} />
@@ -77,13 +81,12 @@ export function Projects() {
                         rel="noopener noreferrer"
                         className="text-muted-foreground hover:text-foreground hover:bg-secondary rounded-lg p-2 transition-all"
                         aria-label="Live project"
-                        data-testid={`link-live-${project.name.toLowerCase()}`}
                         onClick={(e) => e.stopPropagation()}
                       >
                         <ExternalLink size={16} />
                       </a>
                     )}
-                    {/* Blog link icon */}
+                    {/* Arrow icon — primary action for blog */}
                     <a
                       href={blogUrl}
                       className="text-muted-foreground hover:text-foreground hover:bg-secondary rounded-lg p-2 transition-all"
@@ -112,7 +115,7 @@ export function Projects() {
           })}
         </div>
 
-        {/* Other projects - similar changes */}
+        {/* Other projects */}
         {others.length > 0 && (
           <>
             <motion.h3
@@ -127,7 +130,7 @@ export function Projects() {
             </motion.h3>
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {others.map((project, i) => {
-                const slug = project.name.toLowerCase().replace(/\s+/g, '-');
+                const slug = getProjectSlug(project.name);
                 const blogUrl = `/blog/${slug}`;
 
                 return (
@@ -143,7 +146,7 @@ export function Projects() {
                     onClick={() => window.location.href = blogUrl}
                   >
                     <div className="flex items-center justify-between">
-                      <h4 className="text-foreground group-hover:text-primary font-serif text-lg font-light transition-colors">
+                      <h4 className="text-foreground font-serif text-lg font-light transition-colors">
                         {project.name}
                       </h4>
                       <div className="flex gap-1">
