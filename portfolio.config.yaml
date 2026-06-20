@@ -88,26 +88,18 @@ social:
 # Use | for multi-line text. Indent each line by 2 spaces.
 # ── About ──────────────────────────────────────────────────────────────
 about: |
-  I'm a Computer Science graduate from Oregon State University with a minor in 
-  Business. While I studied tech, I'm really more interested in the business 
-  and people side of things. Analyzing data, improving processes, and making 
-  things easier for teams.
+  I'm a Computer Science graduate from Oregon State University with a minor in Business. While I studied tech, I'm really more interested in the business 
+  and people side of things. Analyzing data, improving processes, and making things easier for teams.
 
-  A lot of my hands on experience comes from class projects, where I've built 
-  databases, developed web apps, and designed wireframes and prototypes. I've 
-  also worked part-time in event logistics and tech support, which taught me 
-  how to stay organized, work with different teams, and adapt quickly.
+  A lot of my hands on experience comes from class projects, where I've built databases, developed web apps, and designed wireframes and prototypes. I've 
+  also worked part-time in event logistics and tech support, which taught me how to stay organized, work with different teams, and adapt quickly.
 
-  On the design side, I really enjoy creating wireframes and working on 
-  frontend stuff. I like making things that look good and are easy to use. 
-  I'm comfortable with Figma and have built prototypes and user flows for 
-  several projects. I like the creative part of design way more than the 
+  On the design side, I really enjoy creating wireframes and working on frontend stuff. I like making things that look good and are easy to use. 
+  I'm comfortable with Figma and have built prototypes and user flows for several projects. I like the creative part of design way more than the 
   coding part.
 
-  Outside of work, I love filming and editing videos from my trips just for 
-  fun! I use VN to piece together travel clips, playing with music, pacing, 
-  and storytelling. It's a creative outlet that's helped me think about how 
-  to keep things visually engaging.
+  Outside of work, I love filming and editing videos from my trips just for fun! I use VN to piece together travel clips, playing with music, pacing, 
+  and storytelling. It's a creative outlet that's helped me think about how to keep things visually engaging.
 
 # ── Languages ──────────────────────────────────────────────────────────
 # level options: Native | Fluent | Conversational | Basic
@@ -194,9 +186,8 @@ projects:
       Co-authored the executive summary, management team analysis, and overall summary
       sections. Pitched to a panel of business judges, defending financial projections
       and market strategy.
-      [View Business Plan](https://github.com/MoonyMochiey/Feifei-sPortfolio/blob/main/public/Assignment%208%20Business%20Plan%20Written%20Proposal.pdx.pdf)
     tags: ["Business Plan", "Business Pitch Competition"]
-    liveUrl: ""
+    liveUrl: "https://github.com/MoonyMochiey/Feifei-sPortfolio/blob/main/public/Assignment%208%20Business%20Plan%20Written%20Proposal.pdx.pdf"
     repoUrl: ""
     featured: true
 
@@ -248,6 +239,6 @@ certifications: []
 # Then write your post in plain Markdown below the closing ---.
 # See the sample posts in blog/ to get started.
 blog:
-  enabled: false
+  enabled: True
   title: "Blog"
   description: "Thoughts, stories and ideas — everything in one place."
