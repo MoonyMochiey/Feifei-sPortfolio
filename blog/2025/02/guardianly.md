@@ -154,8 +154,6 @@ After user testing the wireframes, I created a polished prototype in Figma focus
 
 | Link | Purpose |
 | :--- | :--- |
-| [Live Demo](https://guardianly.netlify.app) | Try the app yourself |
-| [GitHub Repo](https://github.com/MoonyMochiey/guardianly) | View the source code |
 | [Landing Page](https://guardianly.netlify.app) | Project overview page |
 
 ---
@@ -172,7 +170,4 @@ After user testing the wireframes, I created a polished prototype in Figma focus
 ---
 
 ## 🔗 Related Links
-
-- [Live App](https://guardianly.netlify.app)
-- [GitHub Repository](https://github.com/MoonyMochiey/guardianly)
 - [Back to Portfolio](/)
