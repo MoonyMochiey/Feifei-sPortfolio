@@ -158,7 +158,7 @@ projects:
       web, and iOS simulator.
     tags: [Flutter, Dart, Figma, Mapbox, Git, "Landing Page"]
     liveUrl: "https://guardianly.netlify.app"
-    repoUrl: "https://github.com/MoonyMochiey/guardianly"
+    repoUrl: "https://github.com/wreckinaj/guardianly"
     featured: true
 
   - name: "Expanova Fleetwork Database"
@@ -196,8 +196,7 @@ projects:
       Designed a user-centered entertainment platform following UX research and
       iterative design processes. Created wireflows and interactive prototypes in
       Figma with a focus on accessibility and clarity.
-      [View Wireframes & Prototypes](https://raw.githubusercontent.com/MoonyMochiey/Feifei-sPortfolio/main/public/projects/ux-platform-wireframes.pdf)
-    tags: ["UX Research", Figma, Wireframing, Prototyping]
+    tags: [UX Research, Figma, Wireframing, Prototyping]
     liveUrl: ""
     repoUrl: ""
     featured: true
