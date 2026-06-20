@@ -241,4 +241,5 @@ certifications: []
 blog:
   enabled: True
   title: "Blog"
+  permalink: "/blog/:slug/"  # ← Try this
   description: "Thoughts, stories and ideas — everything in one place."
