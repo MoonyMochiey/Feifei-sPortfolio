@@ -46,7 +46,7 @@ avatarUrl: "https://github.com/MoonyMochiey/Feifei-sPortfolio/blob/main/public/1
 # resumeFileName: "Git_Vitae_Resume.pdf"
 
 # ── Status ─────────────────────────────────────────────────────────────
-openToWork: true         # Shows "Open to Opportunities" banner when true
+openToWork: false         # Shows "Open to Opportunities" banner when true
 
 # ── Theme ──────────────────────────────────────────────────────────────
 defaultTheme: "system"   # Options: light | dark | system
@@ -74,7 +74,7 @@ sections:
   - { id: experience,     show: true  }
   - { id: projects,       show: true  }
   - { id: education,      show: true  }
-  - { id: certifications, show: true  }
+  - { id: certifications, show: false  }
   - { id: publications,   show: false }
   - { id: testimonials,   show: false  }
   - { id: contact,        show: true  }
@@ -83,7 +83,6 @@ sections:
 social:
   github: "https://github.com/MoonyMochiey"
   linkedin: "https://www.linkedin.com/in/chunfei-huang-25760823a/"
-  website:  ""
 
 # ── About ──────────────────────────────────────────────────────────────
 # Use | for multi-line text. Indent each line by 2 spaces.
@@ -119,11 +118,13 @@ languages:
 # ── Skills ─────────────────────────────────────────────────────────────
 skills:
   - category: "Technical"
-    items: [Python, HTML(web dev), SQL, C++/C, Flutter]
+    items: [Python, HTML(web dev), SQL, C++/C, R]
   - category: "Design"
     items: [Figma, Wireframing, Prototyping, "User Research", "Video Editing (VN)"]
   - category: "Tools"
-    items: [Git, Figma, Power BI, Excel ]
+    items: [Git, Figma, Power BI, Excel, MongoDB ]
+  - category: "Soft Skills"
+    items: [Creative, Problem Solving, Organization, Interpersonal Communication, Adaptability, User-Centered Design ]
 
 # ── Experience ─────────────────────────────────────────────────────────
 experience:
@@ -163,8 +164,8 @@ projects:
       Flutter/Dart with Mapbox hazard visualization. Collaborated with a 3-person
       cross-functional team to deliver an integrated prototype tested on Android, 
       web, and iOS simulator.
-    tags: [Flutter, Dart, Figma, Mapbox, Git]
-    liveUrl: "https://guardianly-auth.web.app"
+    tags: [Flutter, Dart, Figma, Mapbox, Git, "Landing Page"]
+    liveUrl: "https://guardianly.netlify.app"
     repoUrl: "https://github.com/MoonyMochiey/guardianly"
     featured: true
 
