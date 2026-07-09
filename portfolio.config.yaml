@@ -238,7 +238,7 @@ certifications: []
 # Then write your post in plain Markdown below the closing ---.
 # See the sample posts in blog/ to get started.
 blog:
-  enabled: True
+  enabled: False
   title: "Blog"
   permalink: "/blog/:slug/"  # ← Try this
   description: "Thoughts, stories and ideas — everything in one place."
