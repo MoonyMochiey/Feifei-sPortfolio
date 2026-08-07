@@ -156,7 +156,7 @@ projects:
       Flutter/Dart with Mapbox hazard visualization. Collaborated with a 3-person
       cross-functional team to deliver an integrated prototype tested on Android, 
       web, and iOS simulator.
-    tags: [Flutter, Dart, Figma, Mapbox, Git, "Landing Page"]
+    tags: [Flutter, Dart, Figma, Github, Wireframe, Deepseek AI, Frontend Developer, UX Designer]
     liveUrl: "https://guardianly.netlify.app"
     repoUrl: "https://github.com/wreckinaj/guardianly"
     featured: true
@@ -166,7 +166,7 @@ projects:
       Designed and implemented a fully normalized relational database for fleet
       management, including ERD, DDL, and stored procedures. Built a Node.js and
       Handlebars web application with full CRUD functionality across multiple UI views.
-    tags: [Node.js, SQL, "Database Design", CRUD]
+    tags: [Node.js, SQL, Frontend Developer, CRUD]
     repoUrl: "https://github.com/MoonyMochiey/cs-340-project"
     featured: true
 
@@ -186,7 +186,7 @@ projects:
       Co-authored the executive summary, management team analysis, and overall summary
       sections. Pitched to a panel of business judges, defending financial projections
       and market strategy.
-    tags: ["Business Plan", "Business Pitch Competition"]
+    tags: [Research, "Business Pitch Competition"]
     liveUrl: "https://canva.link/zxkmzktcghct1tg"
     repoUrl: "https://github.com/MoonyMochiey/Feifei-sPortfolio/blob/main/public/Assignment%208%20Business%20Plan%20Written%20Proposal.pdx.pdf"
     featured: true
@@ -200,6 +200,19 @@ projects:
     liveUrl: "https://canva.link/k9abj79h9ssqpkp"
     repoUrl: ""
     featured: true
+
+  - name: "HCI: Women in Healthcare Prototype"
+    description: |
+      This mobile prototype helps women find empathetic, affordable healthcare 
+      providers while reducing unnecessary visits and expenses. Built through 
+      a full UX research and iterative design process, it prioritizes 
+      accessibility, clarity, and anonymous community support.
+    tags: [Sketch, User Research, Project Installment, Figma, GenderMag, Leader]
+    liveUrl: "https://docs.google.com/presentation/d/139iU6eMbSHHj0pYO0mwnW56zoI3uywQsy6ODtJB9k6M/edit?usp=sharing"
+    repoUrl: ""
+    featured: true
+
+    
 
 # ── Education ──────────────────────────────────────────────────────────
 education:
