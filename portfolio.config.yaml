@@ -74,9 +74,9 @@ sections:
   - { id: experience,     show: true  }
   - { id: projects,       show: true  }
   - { id: education,      show: true  }
-  - { id: certifications, show: false  }
+  - { id: certifications, show: false }
   - { id: publications,   show: false }
-  - { id: testimonials,   show: false  }
+  - { id: testimonials,   show: false }
   - { id: contact,        show: true  }
 
 # ── Social links ───────────────────────────── (leave blank to hide) ───
