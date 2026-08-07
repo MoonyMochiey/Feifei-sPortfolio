@@ -108,7 +108,7 @@ export function About() {
 
   const hasLanguages = config.languages && config.languages.length > 0;
 
-  const stats =
+  /*const stats =
     config.stats.length > 0
       ? config.stats.slice(0, 4)
       : [
@@ -126,7 +126,7 @@ export function About() {
             prefix: '',
             suffix: '',
           },
-        ];
+        ];*/
 
   return (
     <section
@@ -231,11 +231,11 @@ export function About() {
           </div>
 
           {/* Right col — animated stat cards */}
-          <div className="grid grid-cols-2 gap-4">
+          {/* <div className="grid grid-cols-2 gap-4">
             {stats.map((stat, i) => (
               <StatCard key={stat.label} stat={stat} delay={i + 1} />
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
